@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panen Raya Durian - Desa Kebonrejo</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* CSS KONSISTEN (Style sama dengan halaman lain) */
+        :root { --primary: #1B4D3E; --secondary: #D4AF37; --dark: #1a1a1a; --text: #4a4a4a; --bg: #f8f9fa; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; margin: 0; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--primary); }
+        a { text-decoration: none; color: inherit; transition: 0.3s; }
+
+        /* Navbar */
+        .navbar { background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
+        .container { max-width: 1000px; margin: auto; padding: 0 20px; }
+        .nav-links a { margin-right: 20px; font-weight: 500; }
+        .nav-links a:hover { color: var(--secondary); }
+
+        /* KONTEN ARTIKEL */
+        .article-container { max-width: 800px; margin: 40px auto; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
+        
+        /* Header Artikel */
+        .article-header { margin-bottom: 30px; text-align: center; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .article-category { background: rgba(27, 77, 62, 0.1); color: var(--primary); padding: 5px 15px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; }
+        .article-date { display: block; margin-top: 15px; color: #888; font-size: 0.9rem; }
+        .article-title { font-size: 2.5rem; margin: 15px 0; line-height: 1.2; }
+
+        /* Gambar Utama */
+        .featured-image { width: 100%; height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 30px; }
+
+        /* Isi Teks */
+        .article-body p { margin-bottom: 20px; font-size: 1.1rem; text-align: justify; }
+        .article-body h3 { margin-top: 30px; font-size: 1.5rem; border-left: 4px solid var(--secondary); padding-left: 15px; }
+
+        /* Tombol Kembali */
+        .btn-back { display: inline-block; margin-top: 30px; padding: 10px 25px; background: var(--primary); color: white; border-radius: 4px; font-weight: 600; }
+        .btn-back:hover { background: #143a2f; }
+
+        /* Footer */
+        footer { background: #111; color: #ccc; padding: 30px 0; text-align: center; margin-top: 50px; }
+
+        @media (max-width: 768px) {
+            .article-container { padding: 20px; margin: 20px; }
+            .article-title { font-size: 1.8rem; }
+            .featured-image { height: 250px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-links">
+                <a href="index.html"><strong>KEBONREJO</strong></a>
+                <a href="index.html">Beranda</a>
+                <a href="profil.html">Profil</a>
+                <a href="berita.html" style="color: var(--secondary);">Berita</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Konten Berita -->
+    <div class="article-container">
+        
+        <!-- Judul & Meta -->
+        <header class="article-header">
+            <span class="article-category">Pertanian</span>
+            <h1 class="article-title">Panen Raya Durian Kebonrejo 2026: Kualitas Meningkat, Petani Sejahtera</h1>
+            <span class="article-date"><i class="far fa-calendar"></i> 15 Januari 2026 &bull; Oleh Admin Desa</span>
+        </header>
+
+        <!-- Gambar -->
+        <img src="https://images.unsplash.com/photo-1595908924976-59c25605d8f2?ixlib=rb-1.2.1&auto=format&fit=crop" alt="Panen Durian" class="featured-image">
+
+        <!-- Teks Berita (ISI LENGKAP) -->
+        <article class="article-body">
+            <p><strong>KEBONREJO</strong> - Musim yang dinanti-nanti akhirnya tiba. Para petani di Desa Kebonrejo, Kecamatan Kepung, mulai melakukan panen raya durian pada pertengahan Januari 2026 ini. Hasil panen tahun ini dilaporkan mengalami peningkatan signifikan baik dari segi kuantitas maupun kualitas buah.</p>
+
+            <h3>Varietas Unggulan Lokal</h3>
+            <p>Kepala Desa Kebonrejo, Bapak Yoni Widarto, menyampaikan bahwa durian lokal Kebonrejo memiliki cita rasa yang khas. "Tahun ini cuaca sangat mendukung. Durian varietas <em>Sabit</em> dan <em>Mutiara</em> yang menjadi andalan desa kami memiliki daging yang tebal dengan rasa manis legit dan sedikit pahit yang dicari penikmat durian," ujarnya saat meninjau lokasi perkebunan.</p>
+
+            <p>Para wisatawan dari luar kota seperti Surabaya, Malang, dan Kediri kota mulai berdatangan memadati sentra-sentra penjualan durian di sepanjang jalan utama desa. Hal ini tentu menggerakkan roda perekonomian warga sekitar.</p>
+
+            <h3>Harga Terjangkau</h3>
+            <p>Meskipun kualitas premium, harga durian di tingkat petani masih sangat terjangkau. Kisaran harga mulai dari Rp 30.000 hingga Rp 100.000 per buah tergantung ukuran dan jenis varietasnya.</p>
+            
+            <p>Pemerintah Desa berharap momentum ini dapat terus dijaga dan dikembangkan menjadi paket wisata tahunan yang lebih terorganisir di masa depan.</p>
+        </article>
+
+        <!-- Tombol Kembali -->
+        <a href="berita.html" class="btn-back"><i class="fas fa-arrow-left"></i> Kembali ke Daftar Berita</a>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container"><p>&copy; 2026 Pemerintah Desa Kebonrejo</p></div>
+    </footer>
+
+</body>
+</html>

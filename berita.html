@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita & Kegiatan - Desa Kebonrejo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS MINIMALIS UNTUK BERITA */
+        :root { --primary: #1B4D3E; --secondary: #D4AF37; }
+        body { font-family: 'Inter', sans-serif; background: #f8f9fa; color: #333; margin: 0; }
+        
+        /* Navbar Simple */
+        .navbar { background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .container { max-width: 1000px; margin: auto; padding: 0 20px; }
+        .nav-links a { margin-right: 20px; text-decoration: none; color: #333; font-weight: 500; }
+        .nav-links a:hover { color: var(--secondary); }
+
+        /* News Grid */
+        .page-title { text-align: center; margin: 40px 0; color: var(--primary); font-family: 'Playfair Display', serif; }
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 50px; }
+        
+        .news-card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: 0.3s; }
+        .news-card:hover { transform: translateY(-5px); }
+        .news-img { height: 200px; background-color: #ddd; background-size: cover; background-position: center; }
+        .news-content { padding: 20px; }
+        .date { font-size: 0.8rem; color: #888; display: block; margin-bottom: 10px; }
+        .news-content h3 { margin: 0 0 10px 0; color: var(--primary); font-family: 'Playfair Display', serif; }
+        .btn-read { display: inline-block; margin-top: 15px; color: var(--secondary); font-weight: bold; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-links">
+                <a href="index.html"><strong>KEBONREJO</strong></a>
+                <a href="index.html">Beranda</a>
+                <a href="profil.html">Profil</a>
+                <a href="berita.html" style="color: var(--secondary);">Berita</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="page-title">Kabar Desa Terkini</h1>
+
+        <div class="news-grid">
+            
+            <!-- BERITA 1 (Contoh) -->
+            <article class="news-card">
+                <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1595908924976-59c25605d8f2?ixlib=rb-1.2.1&auto=format&fit=crop');"></div>
+                <div class="news-content">
+                    <span class="date">15 Januari 2026</span>
+                    <h3>Panen Raya Durian Kebonrejo 2026</h3>
+                    <p>Para petani Desa Kebonrejo menyambut musim panen durian tahun ini dengan sukacita. Kualitas buah tahun ini dinilai sangat baik...</p>
+                    <a href="berita-1-durian.html" class="btn-read">Baca Selengkapnya &rarr;</a>
+                </div>
+            </article>
+
+            <!-- BERITA 2 (Contoh) -->
+            <article class="news-card">
+                <div class="news-img" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-1.2.1&auto=format&fit=crop');"></div>
+                <div class="news-content">
+                    <span class="date">10 Januari 2026</span>
+                    <h3>Pembangunan Embung Selesai 80%</h3>
+                    <p>Proyek embung desa untuk irigasi pertanian di Dusun Tegalrejo kini telah mencapai tahap akhir penyelesaian dinding penahan...</p>
+                    <a href="#" class="btn-read">Baca Selengkapnya &rarr;</a>
+                </div>
+            </article>
+
+            <!-- TEMPAT UNTUK MENAMBAH BERITA BARU (Copy paste block article di atas ke sini) -->
+
+        </div>
+    </div>
+
+</body>
+</html>
